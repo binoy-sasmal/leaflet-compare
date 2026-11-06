@@ -1,0 +1,382 @@
+[
+  {
+    "id": "dev-unchanged",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [],
+    "requires_review": false
+  },
+  {
+    "id": "dev-layout",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": true,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [],
+    "requires_review": false
+  },
+  {
+    "id": "dev-quantity",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 21 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "revision": "Each display capsule contains 21 mg of imaginary sparkle.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-unit",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 g of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "revision": "Each display capsule contains 12 g of imaginary sparkle.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-negation_delete",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Do not keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "negation",
+        "reference": "Keep the display capsule in its silver sleeve.",
+        "revision": "Do not keep the display capsule in its silver sleeve.",
+        "critical": true,
+        "paragraph": 3
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-negation_insert",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label does not describe a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "negation",
+        "reference": "The label describes a bright decorative object.",
+        "revision": "The label does not describe a bright decorative object.",
+        "critical": true,
+        "paragraph": 5
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-warning",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "warning",
+        "reference": "Warning: Do not place the display kit near blue magnets.",
+        "revision": "",
+        "critical": true,
+        "paragraph": 2
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-paragraph",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "missing_paragraph",
+        "reference": "The cardboard cradle protects the fictional display during storage.",
+        "revision": "",
+        "critical": true,
+        "paragraph": 4
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-wording",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a vivid decorative object."
+    ],
+    "changes": [
+      {
+        "category": "wording",
+        "reference": "The label describes a bright decorative object.",
+        "revision": "The label describes a vivid decorative object.",
+        "critical": false,
+        "paragraph": 5
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-blur",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "blur_low_contrast",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 18 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "revision": "Each display capsule contains 18 mg of imaginary sparkle.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-rotation",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "rotation",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Do not keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "negation",
+        "reference": "Keep the display capsule in its silver sleeve.",
+        "revision": "Do not keep the display capsule in its silver sleeve.",
+        "critical": true,
+        "paragraph": 3
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "dev-ambiguous",
+    "split": "dev",
+    "template": "wide-sans",
+    "condition": "obscured",
+    "layout": false,
+    "reference": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 12 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "revision": [
+      "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+      "Each display capsule contains 19 mg of imaginary sparkle.",
+      "Warning: Do not place the display kit near blue magnets.",
+      "Keep the display capsule in its silver sleeve.",
+      "The cardboard cradle protects the fictional display during storage.",
+      "The label describes a bright decorative object."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "revision": "Each display capsule contains 19 mg of imaginary sparkle.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": true
+  }
+]

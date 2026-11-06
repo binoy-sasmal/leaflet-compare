@@ -1,0 +1,382 @@
+[
+  {
+    "id": "heldout-unchanged",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-layout",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": true,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-quantity",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 73 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each exhibit tile contains 37 ml of imaginary shimmer.",
+        "revision": "Each exhibit tile contains 73 ml of imaginary shimmer.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-unit",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 l of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each exhibit tile contains 37 ml of imaginary shimmer.",
+        "revision": "Each exhibit tile contains 37 l of imaginary shimmer.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-negation_delete",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "negation",
+        "reference": "Do not remove the exhibit tile from its paper tray.",
+        "revision": "Remove the exhibit tile from its paper tray.",
+        "critical": true,
+        "paragraph": 3
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-negation_insert",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet does not depict a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "negation",
+        "reference": "The booklet depicts a colourful ornamental item.",
+        "revision": "The booklet does not depict a colourful ornamental item.",
+        "critical": true,
+        "paragraph": 5
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-warning",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "warning",
+        "reference": "Caution: Never expose the exhibit tile to violet lamps.",
+        "revision": "",
+        "critical": true,
+        "paragraph": 2
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-paragraph",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "missing_paragraph",
+        "reference": "The fabric wrapper preserves the fictional exhibit during transport.",
+        "revision": "",
+        "critical": true,
+        "paragraph": 4
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-wording",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "clean",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a vibrant ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "wording",
+        "reference": "The booklet depicts a colourful ornamental item.",
+        "revision": "The booklet depicts a vibrant ornamental item.",
+        "critical": false,
+        "paragraph": 5
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-blur",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "blur_low_contrast",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 87 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each exhibit tile contains 37 ml of imaginary shimmer.",
+        "revision": "Each exhibit tile contains 87 ml of imaginary shimmer.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-rotation",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "rotation",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "negation",
+        "reference": "Do not remove the exhibit tile from its paper tray.",
+        "revision": "Remove the exhibit tile from its paper tray.",
+        "critical": true,
+        "paragraph": 3
+      }
+    ],
+    "requires_review": false
+  },
+  {
+    "id": "heldout-ambiguous",
+    "split": "heldout",
+    "template": "narrow-serif",
+    "condition": "obscured",
+    "layout": false,
+    "reference": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 37 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "revision": [
+      "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+      "Each exhibit tile contains 79 ml of imaginary shimmer.",
+      "Caution: Never expose the exhibit tile to violet lamps.",
+      "Do not remove the exhibit tile from its paper tray.",
+      "The fabric wrapper preserves the fictional exhibit during transport.",
+      "The booklet depicts a colourful ornamental item."
+    ],
+    "changes": [
+      {
+        "category": "quantity_unit",
+        "reference": "Each exhibit tile contains 37 ml of imaginary shimmer.",
+        "revision": "Each exhibit tile contains 79 ml of imaginary shimmer.",
+        "critical": true,
+        "paragraph": 1
+      }
+    ],
+    "requires_review": true
+  }
+]

@@ -1,0 +1,621 @@
+{
+  "rules_version": "1.1",
+  "split": "heldout",
+  "manifest_sha256": "f10a601cb58b9c6cedbdc95c059b516b1067508d5aef390afa0ddfb89d7e11cf",
+  "protocol_sha256": "d1b4bdb2347a7aca8c093c45d62a37f62d5bff699fefcdffcbcb025d0cf9cdb0",
+  "source_sha256": {
+    "leaflet_compare\\__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "leaflet_compare\\alignment.py": "855f7641e50531a2efec4452e6734651387c8cc42ed1f0e41cd29edbf66baee3",
+    "leaflet_compare\\cli.py": "701ec8756be2a608ed52dd01b9a57b2fbd017a1db4286b643efc73c80417eb8e",
+    "leaflet_compare\\comparison.py": "cca142cc92e55f2259068875efb355614af9d48fc7f18cea2cf82e9ccb2e65bb",
+    "leaflet_compare\\extraction.py": "17ea8923b07f7e3b02087650a2ff9c68ef1e85d5af4a398237e4b6c0035e832a",
+    "leaflet_compare\\model.py": "43249bc91baf2397b7d2a25b205879996b9e687a52992406edfbd52319d664d8",
+    "leaflet_compare\\reporting.py": "eab3c65ca92ee97b8c6772dbfed5229715f068da591e54bf8c21b34858305aaf",
+    "leaflet_compare\\text.py": "ff130c360a7607c1483609ac608e32c8bfc1bb6f5f1c5e372f26c91ec1950049"
+  },
+  "environment": {
+    "python": "3.12.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "rapidocr-onnxruntime": "1.4.4",
+      "onnxruntime": "1.31.1",
+      "pypdfium2": "5.15.0",
+      "pdfplumber": "0.11.10",
+      "reportlab": "5.1.0",
+      "pillow": "13.0.0"
+    }
+  },
+  "summary": {
+    "cases": 12,
+    "tp": 8,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "review_cases": 12,
+    "critical_review_coverage": 9,
+    "critical_changes": 9,
+    "false_alarm_findings_on_controls": 6,
+    "control_cases": 2,
+    "character_errors": 247,
+    "characters": 5530,
+    "word_errors": 318,
+    "words": 844
+  },
+  "by_category": {
+    "wording": {
+      "tp": 1,
+      "fp": 40,
+      "fn": 0
+    },
+    "quantity_unit": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0
+    },
+    "negation": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1
+    },
+    "warning": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    "missing_paragraph": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    }
+  },
+  "by_condition": {
+    "clean": {
+      "cases": 9,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "review_cases": 9,
+      "critical_review_coverage": 6,
+      "critical_changes": 6,
+      "false_alarm_findings_on_controls": 6,
+      "control_cases": 2,
+      "character_errors": 181,
+      "characters": 4121,
+      "word_errors": 227,
+      "words": 630
+    },
+    "blur_low_contrast": {
+      "cases": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "review_cases": 1,
+      "critical_review_coverage": 1,
+      "critical_changes": 1,
+      "false_alarm_findings_on_controls": 0,
+      "control_cases": 0,
+      "character_errors": 17,
+      "characters": 472,
+      "word_errors": 24,
+      "words": 72
+    },
+    "rotation": {
+      "cases": 1,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "review_cases": 1,
+      "critical_review_coverage": 1,
+      "critical_changes": 1,
+      "false_alarm_findings_on_controls": 0,
+      "control_cases": 0,
+      "character_errors": 12,
+      "characters": 465,
+      "word_errors": 19,
+      "words": 70
+    },
+    "obscured": {
+      "cases": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "review_cases": 1,
+      "critical_review_coverage": 1,
+      "critical_changes": 1,
+      "false_alarm_findings_on_controls": 0,
+      "control_cases": 0,
+      "character_errors": 37,
+      "characters": 472,
+      "word_errors": 48,
+      "words": 72
+    }
+  },
+  "cases": [
+    {
+      "id": "heldout-unchanged",
+      "condition": "clean",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 0,
+      "control": true,
+      "control_alarms": 3,
+      "findings": 3,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 472,
+      "wer_errors": 25,
+      "words": 72,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "b764ce43a6d99606c4277829cd930af2f4b0b8208170326a69e24d731c66e841"
+    },
+    {
+      "id": "heldout-layout",
+      "condition": "clean",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 0,
+      "control": true,
+      "control_alarms": 3,
+      "findings": 3,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONAL EXHIBITMATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 472,
+      "wer_errors": 26,
+      "words": 72,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "2ffe4a2064eeb939508f3e55085108a11ea10c068c299faa0f9a3744cdb14c5f"
+    },
+    {
+      "id": "heldout-quantity",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 472,
+      "wer_errors": 25,
+      "words": 72,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "fbcfd758efcfb009a22cfede06150c1dc16fccfcd6b8b48df42c022d3ae3e833"
+    },
+    {
+      "id": "heldout-unit",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 21,
+      "characters": 471,
+      "wer_errors": 26,
+      "words": 72,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "b15bd5addb18265f7c90452e3ddd9be1715d6c0dc99d2a5dab61a85bde74f35d"
+    },
+    {
+      "id": "heldout-negation_delete",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 465,
+      "wer_errors": 25,
+      "words": 70,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "67952f7ed642fa03c8c231c9b5f357a5203cc944061b69ab1c13e69c866f2000"
+    },
+    {
+      "id": "heldout-negation_insert",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 480,
+      "wer_errors": 25,
+      "words": 74,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "61a92370607da7080f4a2623ab23f8d68b37b0b6fc9a2f463c55be06f4240c8f"
+    },
+    {
+      "id": "heldout-warning",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 416,
+      "wer_errors": 25,
+      "words": 63,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "59e17cd48bc756f86b1b4f666607b488566145bb7b875f1cf897076873a2ddb9"
+    },
+    {
+      "id": "heldout-paragraph",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 403,
+      "wer_errors": 25,
+      "words": 63,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "03da312c9f17961cbba4729e410359f3b9a898a63785697650910f6ca9bc3972"
+    },
+    {
+      "id": "heldout-wording",
+      "condition": "clean",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 0,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 470,
+      "wer_errors": 25,
+      "words": 72,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "bc707aaaedb52104811c83d858f34c28b474d60a5805d2ba726e8daa4c62e4fc"
+    },
+    {
+      "id": "heldout-blur",
+      "condition": "blur_low_contrast",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 5,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETIC EVALUATION MATERIAL-NOT FOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "The booklet depicts a colourful ornamental item.",
+          "revision": "Thebookletdepictsa colourful ornamental item."
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorative materials.Nomedical or real product instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 17,
+      "characters": 472,
+      "wer_errors": 24,
+      "words": 72,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "7d071f73242a802e4c9820774f5133c0341ff034d614de954bc6c4ad1904fab4"
+    },
+    {
+      "id": "heldout-rotation",
+      "condition": "rotation",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 5,
+      "issues": [],
+      "missed": [
+        {
+          "category": "negation",
+          "reference": "Do not remove the exhibit tile from its paper tray.",
+          "revision": "Remove the exhibit tile from its paper tray.",
+          "critical": true,
+          "paragraph": 3
+        }
+      ],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOT FOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBIT TILE -FICTIONAL EXHIBIT MATERIAL"
+        },
+        {
+          "category": "missing_paragraph",
+          "reference": "Do not remove the exhibit tile from its paper tray.",
+          "revision": ""
+        },
+        {
+          "category": "wording",
+          "reference": "The fabric wrapper preserves the fictional exhibit during transport.",
+          "revision": "Remove the exhibit tile from its paper tray. The fabric wrapper preserves the fictional exhibit during transport."
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedical orreal product instructions. Synthetic evaluation|Page1"
+        }
+      ],
+      "cer_errors": 12,
+      "characters": 465,
+      "wer_errors": 19,
+      "words": 70,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "e2f67fac149f47a5a3dcad27ee07095cfbd8045b864d7c2b2dfe8c9d4fb0806e"
+    },
+    {
+      "id": "heldout-ambiguous",
+      "condition": "obscured",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 6,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATIONMATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+          "revision": "ORBITTILE-FICTIONALEXHIBIT MATERIAL"
+        },
+        {
+          "category": "wording",
+          "reference": "Caution: Never expose the exhibit tile to violet lamps.",
+          "revision": "Caution:Never exposethe exhibit tiletovioletlamps."
+        },
+        {
+          "category": "wording",
+          "reference": "The booklet depicts a colourful ornamental item.",
+          "revision": "Thebookletdepictsacolourfulornamentalitem."
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedical orreal product instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 37,
+      "characters": 472,
+      "wer_errors": 48,
+      "words": 72,
+      "reference_pdf_sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+      "scan_pdf_sha256": "e06e6a4968c3524ba53f93a9c7201bca583bde1c0bfc7c053b3a64be570d9ede"
+    }
+  ]
+}

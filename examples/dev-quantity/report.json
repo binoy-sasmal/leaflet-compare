@@ -1,0 +1,369 @@
+{
+  "reference": {
+    "name": "reference.pdf",
+    "sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+    "method": "pdfplumber",
+    "pages": [
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "ref-p1-0",
+        "text": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+        "page": 1,
+        "bbox": [
+          42.0,
+          38.277000000000044,
+          356.732,
+          49.277000000000044
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-1",
+        "text": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+        "page": 1,
+        "bbox": [
+          48.0,
+          119.31200000000001,
+          352.0640000000001,
+          135.312
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-2",
+        "text": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          168.69100000000003,
+          385.41500000000013,
+          181.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-3",
+        "text": "Warning: Do not place the display kit near blue magnets.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          215.69100000000003,
+          373.87100000000004,
+          228.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-4",
+        "text": "Keep the display capsule in its silver sleeve.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          262.69100000000003,
+          301.604,
+          275.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-5",
+        "text": "The cardboard cradle protects the fictional display during storage.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          309.69100000000003,
+          425.16900000000015,
+          322.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-6",
+        "text": "The label describes a bright decorative object.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          356.691,
+          313.17400000000004,
+          369.691
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-7",
+        "text": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+        "page": 1,
+        "bbox": [
+          42.0,
+          780.07,
+          350.43000000000006,
+          808.07
+        ],
+        "score": null
+      }
+    ],
+    "issues": []
+  },
+  "revision": {
+    "name": "scan.pdf",
+    "sha256": "ba4a5b608f3f674c157fe9223aeb95ce5b9cea85f9d55c9ee7ceb5fe0a238016",
+    "method": "rapidocr-onnxruntime",
+    "pages": [
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "rev-p1-0",
+        "text": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE",
+        "page": 1,
+        "bbox": [
+          40.990765658758015,
+          36.92238159179688,
+          358.3522505401283,
+          49.65423583984375
+        ],
+        "score": 0.9494829455087351
+      },
+      {
+        "id": "rev-p1-1",
+        "text": "LUMENCUBE-FICTIONALDISPLAYKIT",
+        "page": 1,
+        "bbox": [
+          48.17471258101924,
+          119.25504150390626,
+          352.0134876620385,
+          133.2600830078125
+        ],
+        "score": 0.9960795353198874
+      },
+      {
+        "id": "rev-p1-2",
+        "text": "Each display capsule contains 21 mg of imaginary sparkle.",
+        "page": 1,
+        "bbox": [
+          47.752128185764434,
+          167.21170654296876,
+          384.1299627160513,
+          182.91431884765626
+        ],
+        "score": 0.9938129782676697
+      },
+      {
+        "id": "rev-p1-3",
+        "text": "Warning: Do not place the display kit near blue magnets.",
+        "page": 1,
+        "bbox": [
+          46.906956344522456,
+          213.89516601562502,
+          373.98791282407694,
+          230.0221923828125
+        ],
+        "score": 0.9980647617152759
+      },
+      {
+        "id": "rev-p1-4",
+        "text": "Keep the display capsule in its silver sleeve.",
+        "page": 1,
+        "bbox": [
+          47.752128185764434,
+          262.27622070312503,
+          302.1484130941411,
+          276.28125
+        ],
+        "score": 0.980097682579704
+      },
+      {
+        "id": "rev-p1-5",
+        "text": "The cardboard cradle protects the fictional display during storage.",
+        "page": 1,
+        "bbox": [
+          47.32954379050962,
+          307.68649902343753,
+          424.69811347223094,
+          323.81352539062505
+        ],
+        "score": 0.9974957322006794
+      },
+      {
+        "id": "rev-p1-6",
+        "text": "The label describes a bright decorative object.",
+        "page": 1,
+        "bbox": [
+          47.32954379050962,
+          355.64316406250003,
+          312.2904629861155,
+          370.49699707031255
+        ],
+        "score": 0.9788927752920922
+      },
+      {
+        "id": "rev-p1-7",
+        "text": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1",
+        "page": 1,
+        "bbox": [
+          41.83593444926764,
+          779.1895507812501,
+          350.3231378780898,
+          808.897216796875
+        ],
+        "score": 0.9853257076306776
+      }
+    ],
+    "issues": []
+  },
+  "findings": [
+    {
+      "id": "F001",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-0",
+        "text": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+        "page": 1,
+        "bbox": [
+          42.0,
+          38.277000000000044,
+          356.732,
+          49.277000000000044
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-0",
+        "text": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE",
+        "page": 1,
+        "bbox": [
+          40.990765658758015,
+          36.92238159179688,
+          358.3522505401283,
+          49.65423583984375
+        ],
+        "score": 0.9494829455087351
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F002",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-1",
+        "text": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+        "page": 1,
+        "bbox": [
+          48.0,
+          119.31200000000001,
+          352.0640000000001,
+          135.312
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-1",
+        "text": "LUMENCUBE-FICTIONALDISPLAYKIT",
+        "page": 1,
+        "bbox": [
+          48.17471258101924,
+          119.25504150390626,
+          352.0134876620385,
+          133.2600830078125
+        ],
+        "score": 0.9960795353198874
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F003",
+      "category": "quantity_unit",
+      "critical": true,
+      "reference": {
+        "id": "ref-p1-2",
+        "text": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          168.69100000000003,
+          385.41500000000013,
+          181.69100000000003
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-2",
+        "text": "Each display capsule contains 21 mg of imaginary sparkle.",
+        "page": 1,
+        "bbox": [
+          47.752128185764434,
+          167.21170654296876,
+          384.1299627160513,
+          182.91431884765626
+        ],
+        "score": 0.9938129782676697
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F004",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-7",
+        "text": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+        "page": 1,
+        "bbox": [
+          42.0,
+          780.07,
+          350.43000000000006,
+          808.07
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-7",
+        "text": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1",
+        "page": 1,
+        "bbox": [
+          41.83593444926764,
+          779.1895507812501,
+          350.3231378780898,
+          808.897216796875
+        ],
+        "score": 0.9853257076306776
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    }
+  ],
+  "issues": [],
+  "schema_version": "1.0",
+  "rules_version": "1.1",
+  "requires_review": true,
+  "interpretation": "Observed extraction differences; authoring changes require human verification.",
+  "coordinates": "PDF points; top-left origin; boxes refer to original pages",
+  "score_note": "OCR recognition score is not a calibrated probability."
+}

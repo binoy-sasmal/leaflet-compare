@@ -1,0 +1,483 @@
+{
+  "reference": {
+    "name": "reference.pdf",
+    "sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+    "method": "pdfplumber",
+    "pages": [
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "ref-p1-0",
+        "text": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+        "page": 1,
+        "bbox": [
+          42.0,
+          38.277000000000044,
+          356.732,
+          49.277000000000044
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-1",
+        "text": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+        "page": 1,
+        "bbox": [
+          48.0,
+          119.31200000000001,
+          352.0640000000001,
+          135.312
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-2",
+        "text": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          168.69100000000003,
+          385.41500000000013,
+          181.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-3",
+        "text": "Warning: Do not place the display kit near blue magnets.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          215.69100000000003,
+          373.87100000000004,
+          228.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-4",
+        "text": "Keep the display capsule in its silver sleeve.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          262.69100000000003,
+          301.604,
+          275.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-5",
+        "text": "The cardboard cradle protects the fictional display during storage.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          309.69100000000003,
+          425.16900000000015,
+          322.69100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-6",
+        "text": "The label describes a bright decorative object.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          356.691,
+          313.17400000000004,
+          369.691
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-7",
+        "text": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+        "page": 1,
+        "bbox": [
+          42.0,
+          780.07,
+          350.43000000000006,
+          808.07
+        ],
+        "score": null
+      }
+    ],
+    "issues": []
+  },
+  "revision": {
+    "name": "scan.pdf",
+    "sha256": "2f6be526c71081b6d70ada9c5da3189e908b2037fa9afce5aed858a4e4becca1",
+    "method": "rapidocr-onnxruntime",
+    "pages": [
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "rev-p1-0",
+        "text": "SYNTHETICEVALUATIONMATERIAL-NOTFORREALUSE",
+        "page": 1,
+        "bbox": [
+          41.41335005401283,
+          37.34677734375,
+          358.3522505401283,
+          49.65423583984375
+        ],
+        "score": 0.9855075536704645
+      },
+      {
+        "id": "rev-p1-1",
+        "text": "LUMENCUBE-FICTIONALDISPLAYKIT",
+        "page": 1,
+        "bbox": [
+          48.17471258101924,
+          119.25504150390626,
+          352.0134876620385,
+          133.2600830078125
+        ],
+        "score": 0.9954577067802692
+      },
+      {
+        "id": "rev-p1-2",
+        "text": "Warning:Donotplacethedisplaykitnearbluemagnets.",
+        "page": 1,
+        "bbox": [
+          47.32954379050962,
+          213.89516601562502,
+          372.7201504861155,
+          230.0221923828125
+        ],
+        "score": 0.9925511542786943
+      },
+      {
+        "id": "rev-p1-3",
+        "text": "Keepthedisplaycapsuleinitssilversleeve.",
+        "page": 1,
+        "bbox": [
+          47.752128185764434,
+          262.27622070312503,
+          301.30326260802565,
+          276.28125
+        ],
+        "score": 0.992932657400767
+      },
+      {
+        "id": "rev-p1-4",
+        "text": "The cardboardcradleprotects thefictional display during storage.",
+        "page": 1,
+        "bbox": [
+          46.906956344522456,
+          307.68649902343753,
+          424.69811347223094,
+          324.2379150390625
+        ],
+        "score": 0.9651513611897826
+      },
+      {
+        "id": "rev-p1-5",
+        "text": "Thelabeldescribesabrightdecorativeobject.",
+        "page": 1,
+        "bbox": [
+          47.32954379050962,
+          355.64316406250003,
+          312.2904629861155,
+          370.49699707031255
+        ],
+        "score": 0.9893810356535563
+      },
+      {
+        "id": "rev-p1-6",
+        "text": "Fictional decorativematerials.Nomedical orreal product instructions. Syntheticevaluation|Page1",
+        "page": 1,
+        "bbox": [
+          41.41335005401283,
+          778.76513671875,
+          349.4779629861155,
+          809.74599609375
+        ],
+        "score": 0.9696362281546873
+      }
+    ],
+    "issues": []
+  },
+  "findings": [
+    {
+      "id": "F001",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-0",
+        "text": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+        "page": 1,
+        "bbox": [
+          42.0,
+          38.277000000000044,
+          356.732,
+          49.277000000000044
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-0",
+        "text": "SYNTHETICEVALUATIONMATERIAL-NOTFORREALUSE",
+        "page": 1,
+        "bbox": [
+          41.41335005401283,
+          37.34677734375,
+          358.3522505401283,
+          49.65423583984375
+        ],
+        "score": 0.9855075536704645
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F002",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-1",
+        "text": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+        "page": 1,
+        "bbox": [
+          48.0,
+          119.31200000000001,
+          352.0640000000001,
+          135.312
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-1",
+        "text": "LUMENCUBE-FICTIONALDISPLAYKIT",
+        "page": 1,
+        "bbox": [
+          48.17471258101924,
+          119.25504150390626,
+          352.0134876620385,
+          133.2600830078125
+        ],
+        "score": 0.9954577067802692
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F003",
+      "category": "missing_paragraph",
+      "critical": true,
+      "reference": {
+        "id": "ref-p1-2",
+        "text": "Each display capsule contains 12 mg of imaginary sparkle.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          168.69100000000003,
+          385.41500000000013,
+          181.69100000000003
+        ],
+        "score": null
+      },
+      "revision": null,
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence",
+        "Unmatched paragraph; inspect alignment and extraction completeness"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F004",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-3",
+        "text": "Warning: Do not place the display kit near blue magnets.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          215.69100000000003,
+          373.87100000000004,
+          228.69100000000003
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-2",
+        "text": "Warning:Donotplacethedisplaykitnearbluemagnets.",
+        "page": 1,
+        "bbox": [
+          47.32954379050962,
+          213.89516601562502,
+          372.7201504861155,
+          230.0221923828125
+        ],
+        "score": 0.9925511542786943
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F005",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-4",
+        "text": "Keep the display capsule in its silver sleeve.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          262.69100000000003,
+          301.604,
+          275.69100000000003
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-3",
+        "text": "Keepthedisplaycapsuleinitssilversleeve.",
+        "page": 1,
+        "bbox": [
+          47.752128185764434,
+          262.27622070312503,
+          301.30326260802565,
+          276.28125
+        ],
+        "score": 0.992932657400767
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F006",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-5",
+        "text": "The cardboard cradle protects the fictional display during storage.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          309.69100000000003,
+          425.16900000000015,
+          322.69100000000003
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-4",
+        "text": "The cardboardcradleprotects thefictional display during storage.",
+        "page": 1,
+        "bbox": [
+          46.906956344522456,
+          307.68649902343753,
+          424.69811347223094,
+          324.2379150390625
+        ],
+        "score": 0.9651513611897826
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F007",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-6",
+        "text": "The label describes a bright decorative object.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          356.691,
+          313.17400000000004,
+          369.691
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-5",
+        "text": "Thelabeldescribesabrightdecorativeobject.",
+        "page": 1,
+        "bbox": [
+          47.32954379050962,
+          355.64316406250003,
+          312.2904629861155,
+          370.49699707031255
+        ],
+        "score": 0.9893810356535563
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F008",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-7",
+        "text": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+        "page": 1,
+        "bbox": [
+          42.0,
+          780.07,
+          350.43000000000006,
+          808.07
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-6",
+        "text": "Fictional decorativematerials.Nomedical orreal product instructions. Syntheticevaluation|Page1",
+        "page": 1,
+        "bbox": [
+          41.41335005401283,
+          778.76513671875,
+          349.4779629861155,
+          809.74599609375
+        ],
+        "score": 0.9696362281546873
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    }
+  ],
+  "issues": [],
+  "schema_version": "1.0",
+  "rules_version": "1.1",
+  "requires_review": true,
+  "interpretation": "Observed extraction differences; authoring changes require human verification.",
+  "coordinates": "PDF points; top-left origin; boxes refer to original pages",
+  "score_note": "OCR recognition score is not a calibrated probability."
+}

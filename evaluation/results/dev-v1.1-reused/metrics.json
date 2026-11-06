@@ -1,0 +1,658 @@
+{
+  "split": "dev",
+  "manifest_sha256": "662dab9e38398125fd3d2214ca92290ce34378af45bf2cb0158f8c29516d1412",
+  "protocol_sha256": "d1b4bdb2347a7aca8c093c45d62a37f62d5bff699fefcdffcbcb025d0cf9cdb0",
+  "source_sha256": {
+    "leaflet_compare\\__init__.py": "41362a5ea4931c546433d4c48290c5707bf02dbbea1c3aafa9f43d1225e47003",
+    "leaflet_compare\\alignment.py": "855f7641e50531a2efec4452e6734651387c8cc42ed1f0e41cd29edbf66baee3",
+    "leaflet_compare\\cli.py": "701ec8756be2a608ed52dd01b9a57b2fbd017a1db4286b643efc73c80417eb8e",
+    "leaflet_compare\\comparison.py": "cca142cc92e55f2259068875efb355614af9d48fc7f18cea2cf82e9ccb2e65bb",
+    "leaflet_compare\\extraction.py": "17ea8923b07f7e3b02087650a2ff9c68ef1e85d5af4a398237e4b6c0035e832a",
+    "leaflet_compare\\model.py": "43249bc91baf2397b7d2a25b205879996b9e687a52992406edfbd52319d664d8",
+    "leaflet_compare\\reporting.py": "eab3c65ca92ee97b8c6772dbfed5229715f068da591e54bf8c21b34858305aaf",
+    "leaflet_compare\\text.py": "ff130c360a7607c1483609ac608e32c8bfc1bb6f5f1c5e372f26c91ec1950049"
+  },
+  "environment": {
+    "python": "3.12.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "rapidocr-onnxruntime": "1.4.4",
+      "onnxruntime": "1.31.1",
+      "pypdfium2": "5.15.0",
+      "pdfplumber": "0.11.10",
+      "reportlab": "5.1.0",
+      "pillow": "13.0.0"
+    }
+  },
+  "summary": {
+    "cases": 12,
+    "tp": 7,
+    "fp": 8,
+    "fn": 2,
+    "precision": 0.4666666666666667,
+    "recall": 0.7777777777777778,
+    "review_cases": 12,
+    "critical_review_coverage": 9,
+    "critical_changes": 9,
+    "false_alarm_findings_on_controls": 6,
+    "control_cases": 2,
+    "character_errors": 304,
+    "characters": 5463,
+    "word_errors": 324,
+    "words": 839
+  },
+  "by_category": {
+    "wording": {
+      "tp": 1,
+      "fp": 39,
+      "fn": 0
+    },
+    "quantity_unit": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 1
+    },
+    "negation": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1
+    },
+    "warning": {
+      "tp": 1,
+      "fp": 2,
+      "fn": 0
+    },
+    "missing_paragraph": {
+      "tp": 1,
+      "fp": 6,
+      "fn": 0
+    }
+  },
+  "by_condition": {
+    "clean": {
+      "cases": 9,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "review_cases": 9,
+      "critical_review_coverage": 6,
+      "critical_changes": 6,
+      "false_alarm_findings_on_controls": 6,
+      "control_cases": 2,
+      "character_errors": 179,
+      "characters": 4064,
+      "word_errors": 231,
+      "words": 624
+    },
+    "blur_low_contrast": {
+      "cases": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "review_cases": 1,
+      "critical_review_coverage": 1,
+      "critical_changes": 1,
+      "false_alarm_findings_on_controls": 0,
+      "control_cases": 0,
+      "character_errors": 13,
+      "characters": 464,
+      "word_errors": 17,
+      "words": 71
+    },
+    "rotation": {
+      "cases": 1,
+      "tp": 0,
+      "fp": 7,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "review_cases": 1,
+      "critical_review_coverage": 1,
+      "critical_changes": 1,
+      "false_alarm_findings_on_controls": 0,
+      "control_cases": 0,
+      "character_errors": 9,
+      "characters": 471,
+      "word_errors": 12,
+      "words": 73
+    },
+    "obscured": {
+      "cases": 1,
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "review_cases": 1,
+      "critical_review_coverage": 1,
+      "critical_changes": 1,
+      "false_alarm_findings_on_controls": 0,
+      "control_cases": 0,
+      "character_errors": 103,
+      "characters": 464,
+      "word_errors": 64,
+      "words": 71
+    }
+  },
+  "cases": [
+    {
+      "id": "dev-unchanged",
+      "condition": "clean",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 0,
+      "control": true,
+      "control_alarms": 3,
+      "findings": 3,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 464,
+      "wer_errors": 26,
+      "words": 71,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "a2508eada7dd9aa9622ed9a7fa160ed4fdf710727926962a0421a56727ddb0a1"
+    },
+    {
+      "id": "dev-layout",
+      "condition": "clean",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 0,
+      "control": true,
+      "control_alarms": 3,
+      "findings": 3,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 21,
+      "characters": 464,
+      "wer_errors": 26,
+      "words": 71,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "123204d5c69f69f76964f8f5628ea3fddc2e7cbc29ca27bcf76297169bf5510b"
+    },
+    {
+      "id": "dev-quantity",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 464,
+      "wer_errors": 26,
+      "words": 71,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "ba4a5b608f3f674c157fe9223aeb95ce5b9cea85f9d55c9ee7ceb5fe0a238016"
+    },
+    {
+      "id": "dev-unit",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 463,
+      "wer_errors": 26,
+      "words": 71,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "0a73118989043f50ff8af63d67a1f284afb2dbc5bae1d0c7cd4ba4f9e0e4aa3b"
+    },
+    {
+      "id": "dev-negation_delete",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 471,
+      "wer_errors": 26,
+      "words": 73,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "0cf37ccbf7d80aef440401d54bff3bac3aa0f70f6b7301d4a431077d0799fd57"
+    },
+    {
+      "id": "dev-negation_insert",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 472,
+      "wer_errors": 26,
+      "words": 73,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "e1a9e86b834cd0f33b302b4dba57c21f94c52936962b31133e822dd2320b3156"
+    },
+    {
+      "id": "dev-warning",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOT FOR REAL USE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 18,
+      "characters": 407,
+      "wer_errors": 23,
+      "words": 61,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "50906081f161ec6463c84b0b970c73c3f0a75f9ef926aa028985b73c5967d2d1"
+    },
+    {
+      "id": "dev-paragraph",
+      "condition": "clean",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 396,
+      "wer_errors": 26,
+      "words": 62,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "ee994c53ad2f51a9dc7d9f293307b3be8596daaae057c3da186b7d2e103d4911"
+    },
+    {
+      "id": "dev-wording",
+      "condition": "clean",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 0,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATION MATERIAL-NOTFOR REALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedicalorrealproduct instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 20,
+      "characters": 463,
+      "wer_errors": 26,
+      "words": 71,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "83ef728ed8b29f721e5dc7d2fafda1dae112c7956122be710a793b81303e9b35"
+    },
+    {
+      "id": "dev-blur",
+      "condition": "blur_low_contrast",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 4,
+      "issues": [],
+      "missed": [],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETIC EVALUATION MATERIAL-NOT FOR REAL USE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorative materials.Nomedical or real product instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 13,
+      "characters": 464,
+      "wer_errors": 17,
+      "words": 71,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "4f888e51300ae4e1498f1737b0b4e84b195e63b908832962a4414840bc9eb116"
+    },
+    {
+      "id": "dev-rotation",
+      "condition": "rotation",
+      "tp": 0,
+      "fp": 7,
+      "fn": 1,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 9,
+      "issues": [],
+      "missed": [
+        {
+          "category": "negation",
+          "reference": "Keep the display capsule in its silver sleeve.",
+          "revision": "Do not keep the display capsule in its silver sleeve.",
+          "critical": true,
+          "paragraph": 3
+        }
+      ],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETIC EVALUATION MATERIAL -NOT FOR REAL USE"
+        },
+        {
+          "category": "warning",
+          "reference": "",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT Each display capsule contains 12 mg of imaginary sparkle. Warning: Do not place the display kit near blue magnets. Do not keep the display capsule in its silver sleeve. The cardboard cradle protects the fictional display during storage. The label describes a bright decorative object."
+        },
+        {
+          "category": "missing_paragraph",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": ""
+        },
+        {
+          "category": "missing_paragraph",
+          "reference": "Each display capsule contains 12 mg of imaginary sparkle.",
+          "revision": ""
+        },
+        {
+          "category": "warning",
+          "reference": "Warning: Do not place the display kit near blue magnets.",
+          "revision": ""
+        },
+        {
+          "category": "missing_paragraph",
+          "reference": "Keep the display capsule in its silver sleeve.",
+          "revision": ""
+        },
+        {
+          "category": "missing_paragraph",
+          "reference": "The cardboard cradle protects the fictional display during storage.",
+          "revision": ""
+        },
+        {
+          "category": "missing_paragraph",
+          "reference": "The label describes a bright decorative object.",
+          "revision": ""
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation|Page1"
+        }
+      ],
+      "cer_errors": 9,
+      "characters": 471,
+      "wer_errors": 12,
+      "words": 73,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "067d962181d0f16e2169de89dd82031ae2ac9e3f7590abc7b2178cbe25ae7d79"
+    },
+    {
+      "id": "dev-ambiguous",
+      "condition": "obscured",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "review": true,
+      "critical_review_coverage": 1,
+      "control": false,
+      "control_alarms": 0,
+      "findings": 8,
+      "issues": [],
+      "missed": [
+        {
+          "category": "quantity_unit",
+          "reference": "Each display capsule contains 12 mg of imaginary sparkle.",
+          "revision": "Each display capsule contains 19 mg of imaginary sparkle.",
+          "critical": true,
+          "paragraph": 1
+        }
+      ],
+      "false_alarms": [
+        {
+          "category": "wording",
+          "reference": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+          "revision": "SYNTHETICEVALUATIONMATERIAL-NOTFORREALUSE"
+        },
+        {
+          "category": "wording",
+          "reference": "LUMEN CUBE - FICTIONAL DISPLAY KIT",
+          "revision": "LUMENCUBE-FICTIONALDISPLAYKIT"
+        },
+        {
+          "category": "missing_paragraph",
+          "reference": "Each display capsule contains 12 mg of imaginary sparkle.",
+          "revision": ""
+        },
+        {
+          "category": "wording",
+          "reference": "Warning: Do not place the display kit near blue magnets.",
+          "revision": "Warning:Donotplacethedisplaykitnearbluemagnets."
+        },
+        {
+          "category": "wording",
+          "reference": "Keep the display capsule in its silver sleeve.",
+          "revision": "Keepthedisplaycapsuleinitssilversleeve."
+        },
+        {
+          "category": "wording",
+          "reference": "The cardboard cradle protects the fictional display during storage.",
+          "revision": "The cardboardcradleprotects thefictional display during storage."
+        },
+        {
+          "category": "wording",
+          "reference": "The label describes a bright decorative object.",
+          "revision": "Thelabeldescribesabrightdecorativeobject."
+        },
+        {
+          "category": "wording",
+          "reference": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+          "revision": "Fictional decorativematerials.Nomedical orreal product instructions. Syntheticevaluation|Page1"
+        }
+      ],
+      "cer_errors": 103,
+      "characters": 464,
+      "wer_errors": 64,
+      "words": 71,
+      "reference_pdf_sha256": "b5cf8359075c81e3c5018a0d4df4c9536391082e753cb5cc438b4c92ac39a1c5",
+      "scan_pdf_sha256": "2f6be526c71081b6d70ada9c5da3189e908b2037fa9afce5aed858a4e4becca1"
+    }
+  ]
+}

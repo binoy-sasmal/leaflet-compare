@@ -1,0 +1,381 @@
+{
+  "reference": {
+    "name": "reference.pdf",
+    "sha256": "ff9951f76d7ca94147587178d070eb02d529c8a8f99dd70f44c96aaacadbb59d",
+    "method": "pdfplumber",
+    "pages": [
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "ref-p1-0",
+        "text": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+        "page": 1,
+        "bbox": [
+          42.0,
+          38.277000000000044,
+          356.732,
+          49.277000000000044
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-1",
+        "text": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+        "page": 1,
+        "bbox": [
+          48.0,
+          119.47199999999998,
+          300.40000000000003,
+          154.47199999999998
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-2",
+        "text": "Each exhibit tile contains 37 ml of imaginary shimmer.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          187.82100000000003,
+          335.06600000000003,
+          200.82100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-3",
+        "text": "Caution: Never expose the exhibit tile to violet lamps.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          234.82100000000003,
+          329.29400000000004,
+          247.82100000000003
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-4",
+        "text": "Do not remove the exhibit tile from its paper tray.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          281.821,
+          307.24600000000004,
+          294.821
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-5",
+        "text": "The fabric wrapper preserves the fictional exhibit during transport.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          328.821,
+          342.229,
+          360.821
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-6",
+        "text": "The booklet depicts a colourful ornamental item.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          394.821,
+          301.82500000000005,
+          407.821
+        ],
+        "score": null
+      },
+      {
+        "id": "ref-p1-7",
+        "text": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+        "page": 1,
+        "bbox": [
+          42.0,
+          780.07,
+          350.43000000000006,
+          808.07
+        ],
+        "score": null
+      }
+    ],
+    "issues": []
+  },
+  "revision": {
+    "name": "scan.pdf",
+    "sha256": "e2f67fac149f47a5a3dcad27ee07095cfbd8045b864d7c2b2dfe8c9d4fb0806e",
+    "method": "rapidocr-onnxruntime",
+    "pages": [
+      {
+        "page": 1,
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "paragraphs": [
+      {
+        "id": "rev-p1-0",
+        "text": "SYNTHETICEVALUATION MATERIAL-NOT FOR REALUSE",
+        "page": 1,
+        "bbox": [
+          24.932526606385423,
+          34.80040588378906,
+          341.448850324077,
+          60.688513183593756
+        ],
+        "score": 0.9441084306348454
+      },
+      {
+        "id": "rev-p1-1",
+        "text": "ORBIT TILE -FICTIONAL EXHIBIT MATERIAL",
+        "page": 1,
+        "bbox": [
+          34.65198752700641,
+          119.25504150390626,
+          287.78051314815394,
+          163.81654052734376
+        ],
+        "score": 0.9745328138614523
+      },
+      {
+        "id": "rev-p1-2",
+        "text": "Each exhibit tile contains 37 ml of imaginary shimmer.",
+        "page": 1,
+        "bbox": [
+          36.76491255401283,
+          185.8850830078125,
+          325.3906005941411,
+          212.1975830078125
+        ],
+        "score": 0.9970543296248825
+      },
+      {
+        "id": "rev-p1-3",
+        "text": "Caution: Never expose the exhibit tile to violet lamps.",
+        "page": 1,
+        "bbox": [
+          39.72300942226123,
+          233.841748046875,
+          320.7421630941411,
+          258.4566650390625
+        ],
+        "score": 0.9913426442579789
+      },
+      {
+        "id": "rev-p1-4",
+        "text": "Remove the exhibit tile from its paper tray. The fabric wrapper preserves the fictional exhibit during transport.",
+        "page": 1,
+        "bbox": [
+          41.41335005401283,
+          283.4959716796875,
+          341.0262628780898,
+          373.043359375
+        ],
+        "score": 0.9789581811218931
+      },
+      {
+        "id": "rev-p1-5",
+        "text": "The booklet depicts a colourful ornamental item.",
+        "page": 1,
+        "bbox": [
+          46.48437194926764,
+          394.26311035156255,
+          300.8806751620385,
+          418.87802734375003
+        ],
+        "score": 0.9960405093928179
+      },
+      {
+        "id": "rev-p1-6",
+        "text": "Fictional decorativematerials.Nomedical orreal product instructions. Synthetic evaluation|Page1",
+        "page": 1,
+        "bbox": [
+          57.47158758101924,
+          776.6431640625001,
+          366.38136320216677,
+          820.355859375
+        ],
+        "score": 0.9772885281306046
+      }
+    ],
+    "issues": []
+  },
+  "findings": [
+    {
+      "id": "F001",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-0",
+        "text": "SYNTHETIC EVALUATION MATERIAL - NOT FOR REAL USE",
+        "page": 1,
+        "bbox": [
+          42.0,
+          38.277000000000044,
+          356.732,
+          49.277000000000044
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-0",
+        "text": "SYNTHETICEVALUATION MATERIAL-NOT FOR REALUSE",
+        "page": 1,
+        "bbox": [
+          24.932526606385423,
+          34.80040588378906,
+          341.448850324077,
+          60.688513183593756
+        ],
+        "score": 0.9441084306348454
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F002",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-1",
+        "text": "ORBIT TILE - FICTIONAL EXHIBIT MATERIAL",
+        "page": 1,
+        "bbox": [
+          48.0,
+          119.47199999999998,
+          300.40000000000003,
+          154.47199999999998
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-1",
+        "text": "ORBIT TILE -FICTIONAL EXHIBIT MATERIAL",
+        "page": 1,
+        "bbox": [
+          34.65198752700641,
+          119.25504150390626,
+          287.78051314815394,
+          163.81654052734376
+        ],
+        "score": 0.9745328138614523
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F003",
+      "category": "missing_paragraph",
+      "critical": true,
+      "reference": {
+        "id": "ref-p1-4",
+        "text": "Do not remove the exhibit tile from its paper tray.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          281.821,
+          307.24600000000004,
+          294.821
+        ],
+        "score": null
+      },
+      "revision": null,
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence",
+        "Unmatched paragraph; inspect alignment and extraction completeness"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F004",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-5",
+        "text": "The fabric wrapper preserves the fictional exhibit during transport.",
+        "page": 1,
+        "bbox": [
+          48.0,
+          328.821,
+          342.229,
+          360.821
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-4",
+        "text": "Remove the exhibit tile from its paper tray. The fabric wrapper preserves the fictional exhibit during transport.",
+        "page": 1,
+        "bbox": [
+          41.41335005401283,
+          283.4959716796875,
+          341.0262628780898,
+          373.043359375
+        ],
+        "score": 0.9789581811218931
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    },
+    {
+      "id": "F005",
+      "category": "wording",
+      "critical": false,
+      "reference": {
+        "id": "ref-p1-7",
+        "text": "Fictional decorative materials. No medical or real product instructions. Synthetic evaluation | Page 1",
+        "page": 1,
+        "bbox": [
+          42.0,
+          780.07,
+          350.43000000000006,
+          808.07
+        ],
+        "score": null
+      },
+      "revision": {
+        "id": "rev-p1-6",
+        "text": "Fictional decorativematerials.Nomedical orreal product instructions. Synthetic evaluation|Page1",
+        "page": 1,
+        "bbox": [
+          57.47158758101924,
+          776.6431640625001,
+          366.38136320216677,
+          820.355859375
+        ],
+        "score": 0.9772885281306046
+      },
+      "uncertainty": [
+        "OCR text may differ from source; verify page evidence"
+      ],
+      "status": "unreviewed",
+      "reviewer_note": ""
+    }
+  ],
+  "issues": [],
+  "schema_version": "1.0",
+  "rules_version": "1.1",
+  "requires_review": true,
+  "interpretation": "Observed extraction differences; authoring changes require human verification.",
+  "coordinates": "PDF points; top-left origin; boxes refer to original pages",
+  "score_note": "OCR recognition score is not a calibrated probability."
+}
