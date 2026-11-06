@@ -1,4 +1,4 @@
 # Preserve source and manifest bytes; accept Windows CRLF in whitespace checks.
-* -text whitespace=blank-at-eol,space-before-tab,cr-at-eol
+* -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
 *.pdf binary
 *.png binary
