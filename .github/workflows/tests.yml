@@ -10,4 +10,4 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements-lock.txt
       - run: pip install -e . --no-deps
-      - run: pytest -m "not ocr"
+      - run: python -m pytest -m "not ocr"
